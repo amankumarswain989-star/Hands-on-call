@@ -68,7 +68,9 @@ button{
     height:50%;
     margin:10px;
     text-align:center;
+  flex-direction:column;
     text-decoration:none;
+  gap:30px;
 }
 .menu a{
   display:block;
@@ -101,7 +103,7 @@ button{
  <script>
    function showmenu(){
     let menu=document.getElementById("menu");
-   if(menu.style.display==="block"){
+   if(menu.style.display==="flex"){
      menu.style.display="none";
      }else{
       menu.style.display="block";
