@@ -1,0 +1,145 @@
+<html>
+  <head>
+  <title> home of hands on call</title>
+  <style>
+    img{
+  height:60px;
+  width:60px;
+  position:relative;
+  }
+h2{
+  position:absolute;
+  top:2.5%;
+  left:25%;
+  color:blue;
+}
+button{
+  position:absolute;
+  top:2.5%;
+  right:3%;
+  color:black;
+  font-size:30px;
+  background-color:white;
+}
+
+.menu {
+  display:none;
+    position: absolute;
+    top: 70px;
+    right: 3%;
+    background-color:black;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    width:50%;
+    height:25%;
+    margin-bottom:500px;
+    text-align:center;
+    font-size:20px;
+    font-weight:300;
+}
+  .menu p{
+  margin-bottom:60px;
+  }
+  body{
+        background-color:#E6E6FA;
+        font-size:20px;
+        margin:20px;
+      }
+ .login-box{
+    background-color:white;
+    width:90%;
+    max-width:400px;
+    padding:10px;
+    margin:5px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        animation: slideIn 2.0s ease;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+h5{
+  font-size:30px;
+  color:blue;
+}
+   </style>
+    </head>
+    <body>
+    <img src="IMG_20260902_192518.jpg">
+    <h2>Hands on call</h2>
+      <button onclick="showmenu()">=</button>
+    <div class="menu" id="menu">
+   <a href="./Service.html"> Test service </a>
+   <a href="./contact-us.html">contact us</a>
+ </div>
+ 
+<h5>Your Need. Our Service. Just One Call Away.</h5>
+
+  <div class="login-box">
+<p>Welcome to Hands On Call, a modern and convenient platform designed to connect customers with trusted service professionals. In our busy daily lives, finding the right person for household and local services can often be difficult and time-consuming. Hands On Call aims to make this process simple, quick, and reliable.
+</p>
+<p>Whether you need plumbing, electrical work, home cleaning, appliance repair, painting, maintenance, or other everyday services, Hands On Call helps you find suitable assistance whenever you need it. Our platform is designed to save your valuable time and reduce the effort of searching for reliable professionals.</p>
+
+<p>We believe technology can make everyday services easier and more accessible. Hands On Call provides a simple platform where users can explore services, choose what they need, and connect with service providers. At the same time, it gives skilled workers and local professionals an opportunity to reach more customers and grow their services.
+</p>
+</div>
+<div class="login-box">
+<h3>Why Choose Hands On Call?</h3>
+<p>
+🛠️ Reliable Services – Connect with dependable service professionals.<br>
+</p>
+<p>
+⚡ Quick Assistance – Find help when you need it without unnecessary delays.<br>
+</p>
+<p>
+ 👨‍🔧 Skilled Professionals – Get access to people with relevant skills and experience.<br>
+ </p>
+ <p>
+ 
+📱 Easy to Use – A simple and user-friendly platform for everyone.<br>
+</p>
+<p>
+
+ ⭐ Quality Focused – We aim to provide a smooth and satisfying customer experience.<br>
+</p>
+<p>
+ 
+ 🤝 Local Connection – Bringing customers and service providers together in one place.<br>
+ 
+</p>
+</div>
+<div>
+  <div class="login-box">
+<h3>Our Mission</h3>
+<p>
+Our mission is to make everyday services easy to discover, easy to request, and easy to access while creating better opportunities for local service professionals.
+</p>
+</div>
+<div class="login-box">
+
+<h3>our vision</h3>
+<p>
+We envision a future where finding trusted help is as simple as making a call or using a few taps on your smartphone.
+
+Hands On Call — Your Need. Our Service. Just One Call Away.</p>
+ </div>
+ <script>
+   function showmenu(){
+    let menu=document.getElementById("menu");
+   if(menu.style.display==="block"){
+     menu.style.display="none";
+     }else{
+      menu.style.display="block";
+     } 
+   }
+ </script>
+    </body>
+  </html>

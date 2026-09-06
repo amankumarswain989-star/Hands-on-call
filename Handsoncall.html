@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>Handsoncall</title>
+    <style>
+    *{
+   box-sizing:border-box;
+}
+      body{
+        background-color:#E6E6FA;
+        font-size:20px;
+        margin:20px;
+      }
+.login-box{
+    background-color:white;
+    width:90%;
+    max-width:400px;
+    padding:10px;
+    margin:5px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        animation: slideIn 2.0s ease;
+}
+        
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+img{
+  height:60px;
+  width:60px;
+  position:relative;
+  }
+h2{
+  position:absolute;
+  top:2.5%;
+  left:25%;
+  color:blue;
+}
+button{
+  position:absolute;
+  top:2.5%;
+  right:3%;
+  color:black;
+  font-size:30px;
+  background-color:white;
+}
+
+.menu{
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 3%;
+    background-color:black;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width:50%;
+    height:50%;
+    margin:10px;
+    text-align:center;
+    text-decoration:none;
+}
+.menu a{
+  margin-bottom:60px;
+}
+  </style>
+  </head>
+  <body>
+    <img src="IMG_20260902_192518.jpg">
+    <h2>Hands on call</h2>
+    <button onclick="showmenu()">=</button>
+    <div class="login-box">
+    <h1>An overview:</h1>
+    <p>
+ Hands On Call is a service-based startup designed to make everyday tasks easier by connecting customers with reliable and skilled professionals. From home maintenance and repairs to cleaning and other essential services, our platform aims to provide convenient, quick, and trustworthy assistance whenever you need it. We focus on making service booking simple, maintaining transparent communication, and delivering a smooth customer experience. With Hands On Call, getting the right help is just a call away.</p>
+ </div>
+ <div class="login-box">
+ <p>
+   At Hands On Call, we provide reliable workers for your day-to-day household and personal needs. Our services are available for short-term requirements, generally for one day at a time, so you can get the help you need without a long-term commitment. If you are satisfied with a worker and want the same worker again on the next day, you can contact Hands On Call and request their service. We will try our best to arrange the same worker for you, depending on their availability and willingness. Our goal is to make everyday tasks easier by providing convenient, trustworthy, and flexible assistance whenever you need it.
+ </p>
+ </div>
+ <div class="menu" id="menu">
+   <a href="./Home.html">Home</a><br>
+   <a href="Service.html"> service provided</a>
+   <a href="./Contact-us.html">contact us</a>
+ </div>
+ <script>
+   function showmenu(){
+    let menu=document.getElementById("menu");
+   if(menu.style.display==="block"){
+     menu.style.display="none";
+     }else{
+      menu.style.display="block";
+     } 
+   }
+ </script>
+  </body>
+</html>
